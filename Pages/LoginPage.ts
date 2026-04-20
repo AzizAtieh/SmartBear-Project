@@ -11,7 +11,7 @@ export class LoginPage extends BasePage {
   constructor(page: Page) {
     super(page);
 
-    // Element locators
+    
     this.loginForm = this.page.locator('.login');
     this.usernameField = this.page.locator('#ctl00_MainContent_username');
     this.passwordField = this.page.locator('#ctl00_MainContent_password');
