@@ -7,11 +7,11 @@ export class BasePage {
   constructor(page: Page) {
     this.page = page;
 
-    // Common locators
+    
     this.loginInfo = this.page.locator('.login_info');
   }
 
-  // reusable methods/commands
+  
   async wait(ms: number) {
     await this.page.waitForTimeout(ms);
     return this;
