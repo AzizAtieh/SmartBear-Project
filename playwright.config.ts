@@ -74,10 +74,10 @@ export default defineConfig({
     //   use: { ...devices['Desktop Firefox'] },
     // },
 
-    // {
-    //   name: 'SmartBear Tests - Safari',
-    //   use: { ...devices['Desktop Safari'] },
-    // },
+    {
+    name: 'SmartBear Tests - Safari',
+    use: { ...devices['Desktop Safari'] },
+    },
 
     /* Test against mobile viewports. */
     // {
